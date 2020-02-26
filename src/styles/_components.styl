@@ -1,0 +1,317 @@
+fieldset
+  padding: 1rem 1rem 2rem;
+  border: 1px solid var(--color-base-lines);
+
+  legend
+    margin-left: 1rem;
+
+  p:first-of-type
+    margin-top: 0;
+
+
+.main-nav
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 12rem;
+  background-color: #1d1f24;
+  margin: 0;
+  color: white;
+
+  .logo
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    color: white
+
+
+  a
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.5)
+
+    &.-active
+      background-color: var(--color-base-primary)
+      color: var(--color-text-inverted)
+
+    &:hover,
+    &:focus
+      color: var(--color-text-inverted)
+
+
+.main-content
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 12rem;
+  background-color: #eaeaea;
+  padding-bottom: 3rem;
+  overflow: auto;
+
+
+.main-section
+  background-color: white
+  position: relative
+
+  &.create-ad
+    padding: 2rem
+
+  h2
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: var(--tracking);
+
+  .cta
+    background-color: var(--color-base-primary);
+    color: var(--color-text-inverted);
+    border: 0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    margin: 0;
+
+
+.ad-block
+.account-block
+  list-style: none;
+  border-bottom: 1px solid var(--color-base-lines);
+  padding: 1.5rem;
+  position: relative;
+
+  &.-open
+    background-color: #fafafa;
+
+    .question
+      font-weight: bold;
+
+  &:hover
+    background-color: #fafafa;
+
+
+.ad-options
+.account-options
+  position: absolute;
+  right: 1rem;
+  top: 0;
+
+  button
+    border: 0;
+    background-color: transparent;
+    color: var(--color-base-primary);
+    margin-left: 0.5rem;
+
+.sub-nav
+  border-bottom: 2px solid var(--color-base-lines)
+  padding-bottom: 1rem
+  margin-bottom: 2rem
+
+  a
+    display: inline-block
+    margin-right: 2rem
+    text-decoration: none
+    font-weight: 600
+    color: inherit
+
+    &.-active
+      color: var(--color-base-primary)
+
+.notification
+  background-color: #40875e
+  color: var(--color-text-inverted)
+  position: relative
+  padding: 1rem
+
+  .notification-close
+    display: block
+    position: absolute
+    top: 50%
+    right: 1rem
+    transform: translateY(-50%)
+    color: inherit
+    border: 0
+    background-color: transparent
+    font-size: 1.5rem
+    padding: 0
+    margin: 0
+
+.ad-metadata
+.account-metadata
+  margin-right: 1rem
+
+.button-plain
+  background-color: transparent
+  color: inherit
+  padding: 0
+  font-weight: bold
+  margin-right: 1rem;
+
+  &.-red
+    color: #db5c5c
+
+.-no-margin
+  margin: 0
+
+.ad-editor-container
+.account-editor-container
+  display: none
+
+.answer-block
+  list-style: none
+  padding: 1.5rem
+
+  &:hover
+    cursor: pointer
+    background-color: #fafafa
+
+  & .-correct
+    color: green
+
+  & .-incorrect
+    color: red
+
+.answer-details
+  li
+    list-style: none
+
+
+
+
+.accruly-player {
+  width: 44.5rem
+  height: 25rem
+  margin: 0 auto 4rem auto
+  position: relative
+}
+
+.accruly-video {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  outline: none;
+}
+
+.accruly-banner-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+}
+
+.accruly-qa {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  color: white;
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.accruly-qa:hover {
+  transform: translateY(0);
+}
+
+.accruly-question {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.accruly-options {
+  display: flex;
+}
+
+.accruly-answer {
+  border: 0;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+  margin-top: 0
+}
+
+.accruly-answer:last-child {
+  margin-right: 0;
+}
+
+.accruly-answer:hover {
+  background-color: #4590f8;
+  color: white;
+}
+
+.accruly-logo {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  text-align: right;
+  width: 75px;
+}
+
+.accruly-logo-img {
+  max-height: 100%;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.accruly-logo-img:hover {
+  opacity: 1;
+}
+
+.accruly-logo-img,
+.accruly-banner-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-screen
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background-color: #eee
+  padding: 2rem
+
+.-text-right
+  text-align: right
+
+.user-menu
+  background-color: #fff
+  padding: 1.5rem 1rem
+  position: relative
+  margin-bottom: 2.5rem
+
+.user-options
+  position: absolute
+  right: 1.5rem
+  top: 50%
+  margin: 0
+  transform: translateY(-50%)
+
+  a
+    margin-left: 1rem
+    font-weight: 600
+    color: inherit
+
+    &:hover,
+    &:focus
+      color: var(--color-base-primary)
+

@@ -1,0 +1,23 @@
+{
+  "name": "accruly-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "SET NODE_ENV=development parcel serve src/index.pug",
+    "build": "SET NODE_ENV=production parcel build src/index.pug --out-dir docs --public-url https://jbourbaki.github.io/accruly-dashboard/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.7",
+    "axios": "^0.19.0",
+    "immutable": "^4.0.0-rc.12",
+    "lit-html": "^1.1.2"
+  }
+}
